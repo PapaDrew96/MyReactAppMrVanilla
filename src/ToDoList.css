@@ -1,0 +1,21 @@
+/* src/components/ToDoList.css */
+
+.todo-list {
+  list-style: disc;
+  padding: 0;
+  margin: 0; /* Remove default margin */
+  position: absolute; /* Adjusted if necessary for your design */
+  top: 0; /* Adjusted if necessary for your design */
+  left: 0; /* Adjusted if necessary for your design */
+  color: #f0f0f0;
+  display: flex;
+  flex-direction: column; /* Make items stack vertically */
+  justify-content: flex-start; /* Align items to the start of the flex container */
+}
+
+.todo-item {
+  background-color: #f0f0f0;
+  margin: 8px 0; /* Increase space between items */
+  padding: 10px;
+  border-radius: 4px;
+}

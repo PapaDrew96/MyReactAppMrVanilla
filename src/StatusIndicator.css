@@ -1,0 +1,9 @@
+.status-indicator {
+    display: inline-flex;
+    align-items: center;
+    gap: 8px;
+    padding: 5px 10px;
+    border: 2px solid;
+    border-radius: 4px;
+  }
+  
