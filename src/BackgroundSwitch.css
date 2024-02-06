@@ -1,0 +1,30 @@
+.background-switch-container {
+    width: 100%; /* Adjusted to 100% of its parent container */
+    height: 100vh; /* Example height, adjust as necessary */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-size: cover; /* Cover the entire container without losing aspect ratio */
+    background-position: center; /* Center the background image */
+    background-repeat: no-repeat; /* Prevent the background image from repeating */
+    transition: background-image 0.5s ease-in-out; /* Smooth transition for background change */
+  }
+  
+  button {
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    z-index: 2; /* Ensure button is clickable and above the background */
+  }
+
+  button:hover{
+    cursor: pointer;
+    background-color: violet ;
+    box-shadow: 2em 0em 2em 0em;
+  }
+  @media (max-width: 600px) {
+    .background-switch-container {
+      height: 50vh; /* Example adjustment for smaller screens */
+    }
+  }
+    

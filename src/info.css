@@ -17,5 +17,8 @@
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     color: aliceblue;
     animation: wave 1s 2; /* Use the wave animation, lasting 1 second, executing twice */
+    font-size: large;
+    margin-top: 5em;
+    margin-bottom: 5em;
   }
   

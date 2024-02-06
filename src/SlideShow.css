@@ -4,6 +4,8 @@
     height: 400px; /* Ensure consistent size */
     margin: auto;
     overflow: hidden;
+    margin-top: 5em;
+    margin-bottom: 5em;
   }
   
   .slide {
